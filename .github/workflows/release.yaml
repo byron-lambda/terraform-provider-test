@@ -18,6 +18,10 @@ jobs:
   release:
     name: "GoReleaser"
     runs-on: "ubuntu-latest"
+    # GPG_PRIVATE_KEY lives in this environment, not as a repo secret, so only
+    # this job can read it, and only for a push matching the environment's
+    # deployment tag policy (v*) -- see the "release" environment settings.
+    environment: release
     steps:
       - name: "Check out"
         uses: actions/checkout@v4
