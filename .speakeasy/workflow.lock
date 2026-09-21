@@ -1,0 +1,19 @@
+speakeasyVersion: 1.798.0
+sources: {}
+targets:
+    test:
+        source: Test API
+workflow:
+    workflowVersion: 1.0.0
+    speakeasyVersion: latest
+    sources:
+        Test API:
+            inputs:
+                - location: openapi.yaml
+            output: .speakeasy/out.openapi.yaml
+            registry:
+                location: registry.speakeasyapi.dev/lambda/ll/test-api
+    targets:
+        test:
+            target: terraform
+            source: Test API

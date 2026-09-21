@@ -1,0 +1,236 @@
+lockVersion: 2.0.0
+id: cfa4c316-cf3b-4b20-82db-79c6c81ad980
+management:
+  docChecksum: b35d7da4017c4ce47442f9fa9c65c719
+  docVersion: 1.0.0
+  speakeasyVersion: 1.798.0
+  generationVersion: 2.938.0
+  releaseVersion: 0.0.1
+  configChecksum: e34356ddd8396cc6e065923adfa4fa04
+features:
+  terraform:
+    additionalDependencies: 0.1.0
+    core: 3.47.16
+    globalServerURLs: 2.83.2
+trackedFiles:
+  .gitattributes:
+    last_write_checksum: sha1:84b0115789fc3ea52e31df701d8a27f76077e29f
+  USAGE.md:
+    last_write_checksum: sha1:02c32c9430f37507b3eacd41cdc36f080809e92d
+  examples/data-sources/test_message/data-source.tf:
+    last_write_checksum: sha1:267b63865c5a941162a537b9eafc88d54b6963b8
+  examples/provider/provider.tf:
+    last_write_checksum: sha1:f3b0afb5073836df3f4ae7591c11fc27434456a7
+  go.mod:
+    last_write_checksum: sha1:4770a16284232e051236412632b559e9f80218e0
+  internal/planmodifiers/boolplanmodifier/suppress_diff.go:
+    last_write_checksum: sha1:25dcc24725d43cefc8e9b8635c25411aac8b2c44
+  internal/planmodifiers/boolplanmodifier/use_config_value.go:
+    last_write_checksum: sha1:506e2cac3ec4075a8837403860ef0b07e19bc337
+  internal/planmodifiers/boolplanmodifier/use_hoisted_value.go:
+    last_write_checksum: sha1:364e709ac01a86f1abc3806f5cca1f0bdaf531d9
+  internal/planmodifiers/float32planmodifier/suppress_diff.go:
+    last_write_checksum: sha1:1d4289a6ca47d2f0dd4f5d3f8094b8b2990e8873
+  internal/planmodifiers/float32planmodifier/use_config_value.go:
+    last_write_checksum: sha1:2683d9de3605886cb01438a9015c8e8b02b4e069
+  internal/planmodifiers/float32planmodifier/use_hoisted_value.go:
+    last_write_checksum: sha1:1774ebca913704214283804c966a1670daa5c5d3
+  internal/planmodifiers/float64planmodifier/suppress_diff.go:
+    last_write_checksum: sha1:1cd81a50db7e52072b09105beef69bf3e0e93fd3
+  internal/planmodifiers/float64planmodifier/use_config_value.go:
+    last_write_checksum: sha1:cc1f1cadfd17a0b9b1e729029dccc03f17d734a5
+  internal/planmodifiers/float64planmodifier/use_hoisted_value.go:
+    last_write_checksum: sha1:afd5c5dd8514ae891fa949853af78c9d19540c8d
+  internal/planmodifiers/int32planmodifier/suppress_diff.go:
+    last_write_checksum: sha1:207afbb80f24bfd0405d23eb9c1a60884b9e9046
+  internal/planmodifiers/int32planmodifier/use_config_value.go:
+    last_write_checksum: sha1:019ba1949b00493bf1a866821f9331d50c8a1f09
+  internal/planmodifiers/int32planmodifier/use_hoisted_value.go:
+    last_write_checksum: sha1:e876f51848e7310b0a6ee59ab3667af4ca9ffa0f
+  internal/planmodifiers/int64planmodifier/suppress_diff.go:
+    last_write_checksum: sha1:6f7e58281930350e71996273d0e192382e8332aa
+  internal/planmodifiers/int64planmodifier/use_config_value.go:
+    last_write_checksum: sha1:b5a63f0c356cd72698e25e1b4f4fc3e29b35d482
+  internal/planmodifiers/int64planmodifier/use_hoisted_value.go:
+    last_write_checksum: sha1:b1e8b7ab3705b6d3e2ce7d6cb92535d25b66274b
+  internal/planmodifiers/listplanmodifier/suppress_diff.go:
+    last_write_checksum: sha1:e741e64b23fcf72719bcf2ccbe641acaf8b6b552
+  internal/planmodifiers/listplanmodifier/use_config_value.go:
+    last_write_checksum: sha1:c56e2d23520ac7023f800328bb7599e7eba2f202
+  internal/planmodifiers/listplanmodifier/use_hoisted_value.go:
+    last_write_checksum: sha1:345b4265c215fa960d1ac8c1eb168b51ba5e51d5
+  internal/planmodifiers/mapplanmodifier/suppress_diff.go:
+    last_write_checksum: sha1:ec08d4a3eee1fb67d0e531424aa84f7e22109a7c
+  internal/planmodifiers/mapplanmodifier/use_config_value.go:
+    last_write_checksum: sha1:7c2163c8fa4be8e8f7e7499cdb08cc5ed1924b39
+  internal/planmodifiers/mapplanmodifier/use_hoisted_value.go:
+    last_write_checksum: sha1:bd77a6c74809e6448db5625443ea7524c5f725b0
+  internal/planmodifiers/numberplanmodifier/suppress_diff.go:
+    last_write_checksum: sha1:333c2335e1a8ac76299c79f35d28951576dd591f
+  internal/planmodifiers/numberplanmodifier/use_config_value.go:
+    last_write_checksum: sha1:9b92d53a4a5f57e211e6f41ebb6c36cb12357ae6
+  internal/planmodifiers/numberplanmodifier/use_hoisted_value.go:
+    last_write_checksum: sha1:1a24513a874de440e2c8301ee7993b6722ef8580
+  internal/planmodifiers/objectplanmodifier/suppress_diff.go:
+    last_write_checksum: sha1:896999a1158f28cac9d2b673dd9177aa13374d0f
+  internal/planmodifiers/objectplanmodifier/use_config_value.go:
+    last_write_checksum: sha1:1f2b6727605c0b56ff2212ab2e2528046f05b157
+  internal/planmodifiers/objectplanmodifier/use_hoisted_value.go:
+    last_write_checksum: sha1:72c0ab4caa291c49da94b29715b37ce35e33508f
+  internal/planmodifiers/setplanmodifier/suppress_diff.go:
+    last_write_checksum: sha1:31176171d3848f2f982f19d39c5f8db15eb91889
+  internal/planmodifiers/setplanmodifier/use_config_value.go:
+    last_write_checksum: sha1:fe02165f8fd260bbce09f34adfa378376363422f
+  internal/planmodifiers/setplanmodifier/use_hoisted_value.go:
+    last_write_checksum: sha1:1c64d569e443601074ea7519f44f41684fa6c504
+  internal/planmodifiers/stringplanmodifier/suppress_diff.go:
+    last_write_checksum: sha1:d3b01b39f7e34cd67c38788ba95357651e445714
+  internal/planmodifiers/stringplanmodifier/use_config_value.go:
+    last_write_checksum: sha1:250673402508661f9d12cfa026dc029d5e7855d9
+  internal/planmodifiers/stringplanmodifier/use_hoisted_value.go:
+    last_write_checksum: sha1:39a0d97f1fa242aac4cda4e14c9c936407d1fabc
+  internal/planmodifiers/utils/hoisted_value.go:
+    last_write_checksum: sha1:04ccb3d58a019eb0e94efe207280974e85e5fccc
+  internal/planmodifiers/utils/state_check.go:
+    last_write_checksum: sha1:acc38ad698bf4fa8c51aa662076cf57b79024bd5
+  internal/provider/message_data_source.go:
+    last_write_checksum: sha1:33e138389b2ea1f1720ea40e1285fbd5fe10a5f3
+  internal/provider/message_data_source_sdk.go:
+    last_write_checksum: sha1:7ef3f5148b69c61f41d68a7dd1bdca0de7092ae0
+  internal/provider/provider.go:
+    last_write_checksum: sha1:3f512647885f0df8dc81a85e509936e434a8bac7
+  internal/provider/reflect/diags.go:
+    last_write_checksum: sha1:ace8bc53054bb1d8ee8689acf3e4323de75a6297
+  internal/provider/reflect/doc.go:
+    last_write_checksum: sha1:67814656717ff0d0ff38fd9db09872e28666642b
+  internal/provider/reflect/generic_attr_value.go:
+    last_write_checksum: sha1:33300f91738c9b79e41ea4d8f3581d6800ac06ef
+  internal/provider/reflect/helpers.go:
+    last_write_checksum: sha1:3a2083aa9f84f5a54638803f2225daf86408d360
+  internal/provider/reflect/interfaces.go:
+    last_write_checksum: sha1:e03017ee98ee8d1bd64fde7a025975638bcfaed7
+  internal/provider/reflect/into.go:
+    last_write_checksum: sha1:7a29c6e2fd31069faddc441132ff04a92a6198be
+  internal/provider/reflect/map.go:
+    last_write_checksum: sha1:803a218b09d4d9de46d27a5c0227ed3fc6617f62
+  internal/provider/reflect/number.go:
+    last_write_checksum: sha1:ff756986a30b648c423b9af8996584ffc5983514
+  internal/provider/reflect/options.go:
+    last_write_checksum: sha1:735603671bc13388dca9edeb7fefc0b229196793
+  internal/provider/reflect/outof.go:
+    last_write_checksum: sha1:46f09acf317888545161fc1cd288113bd3836ead
+  internal/provider/reflect/pointer.go:
+    last_write_checksum: sha1:92cc23f30396e1a9204f70ac68ebfe7d58cbb967
+  internal/provider/reflect/primitive.go:
+    last_write_checksum: sha1:8b7708414f8be915065952b31986869feaa2fae6
+  internal/provider/reflect/slice.go:
+    last_write_checksum: sha1:70ce36709e204b74e3ded36c4683df7e48df294f
+  internal/provider/reflect/struct.go:
+    last_write_checksum: sha1:504fa0ca7711df0887f8c265c7acb3774e89afe7
+  internal/provider/typeconvert/date.go:
+    last_write_checksum: sha1:01428aae2d6f3fb73f9149791b4d354b720d8a50
+  internal/provider/typeconvert/datetime.go:
+    last_write_checksum: sha1:a2a20e6785f1e12c3f94c016cbc106e54942e981
+  internal/provider/typeconvert/int.go:
+    last_write_checksum: sha1:c28123f17006dc96a233f916a17c38408e37b71f
+  internal/provider/utils.go:
+    last_write_checksum: sha1:c13bdeca9a390177771ec9672ce8e9c1e770958f
+  internal/sdk/.gitattributes:
+    last_write_checksum: sha1:84b0115789fc3ea52e31df701d8a27f76077e29f
+  internal/sdk/internal/config/sdkconfiguration.go:
+    last_write_checksum: sha1:120db4198c48fca2065701f7ee1d3427f9ecc166
+  internal/sdk/internal/hooks/hooks.go:
+    last_write_checksum: sha1:6dad6270326a5a203c2a874148c66cc7d402a3ad
+  internal/sdk/internal/utils/contenttype.go:
+    last_write_checksum: sha1:ab5cfd860d02c6e6a37f89e2b5649a9859947fb1
+  internal/sdk/internal/utils/env.go:
+    last_write_checksum: sha1:1e0bcb2d2caed9f3657f1dbc99b55811bed0298c
+  internal/sdk/internal/utils/form.go:
+    last_write_checksum: sha1:4a766c3f827e8a3499128aea152ef41c1e81189d
+  internal/sdk/internal/utils/headers.go:
+    last_write_checksum: sha1:9f170e8dc3091ffb32f17d66fe78e8f4a6dbae67
+  internal/sdk/internal/utils/json.go:
+    last_write_checksum: sha1:1c475fa732949ab06d3ebaddcbb2d8df567f705a
+  internal/sdk/internal/utils/pathparams.go:
+    last_write_checksum: sha1:74fab8795328cf795dfc74f348387c6616b4c92b
+  internal/sdk/internal/utils/queryparams.go:
+    last_write_checksum: sha1:94828da15bdb77b79b3eda8fa142873feb63a250
+  internal/sdk/internal/utils/requestbody.go:
+    last_write_checksum: sha1:94a579db90058c997f47afa51aeae0c6de443a2f
+  internal/sdk/internal/utils/retries.go:
+    last_write_checksum: sha1:dc0385594075811200b22e1a43bd4fddd34e4b6c
+  internal/sdk/internal/utils/security.go:
+    last_write_checksum: sha1:49fee4e9252239953611e6de36f4682851499ab5
+  internal/sdk/internal/utils/union.go:
+    last_write_checksum: sha1:dd7be0883286620c405766c9311d228051a42a15
+  internal/sdk/internal/utils/union_test.go:
+    last_write_checksum: sha1:c55e5e44c26dfae67b83359851996122a3dfc9cf
+  internal/sdk/internal/utils/utils.go:
+    last_write_checksum: sha1:76faaea9be5e59bad3109e97d79d34b549c5e56e
+  internal/sdk/models/errors/apierror.go:
+    last_write_checksum: sha1:f8493be1606361ffba9bf77d77ede209acc0f562
+  internal/sdk/models/operations/getmessage.go:
+    last_write_checksum: sha1:fe3e4aaa8b0ffa7453e581f9a1c267fa4c4420d4
+  internal/sdk/models/operations/options.go:
+    last_write_checksum: sha1:9c3f01fe9c2d57e17ecfebc0da4366bae9702fb0
+  internal/sdk/models/shared/message.go:
+    last_write_checksum: sha1:6479d36f0197ee72366229d1c8a595c6482dfd55
+  internal/sdk/optionalnullable/optionalnullable.go:
+    last_write_checksum: sha1:d6aff1a420c31e025ea21d46cf056e305ae76fe8
+  internal/sdk/optionalnullable/optionalnullable_test.go:
+    last_write_checksum: sha1:9b3752c65a93a51001e8e9275a6d1494c44103c8
+  internal/sdk/retry/config.go:
+    last_write_checksum: sha1:102d1953fbd7e9f312c4442c71ccca2eaaeaa27d
+  internal/sdk/test.go:
+    last_write_checksum: sha1:b246afa1bd530f575a6aa1ef2da714e381e7333d
+  internal/sdk/types/bigint.go:
+    last_write_checksum: sha1:49b004005d0461fb04b846eca062b070b0360b31
+  internal/sdk/types/date.go:
+    last_write_checksum: sha1:3036a2e1ed15a1d484c093367eba000c38f384d0
+  internal/sdk/types/datetime.go:
+    last_write_checksum: sha1:196d050af6450669214e9ae4fd28e56263ae2b5d
+  internal/sdk/types/pointers.go:
+    last_write_checksum: sha1:fc2275ea006257ba9ba4ff6f2a2cdb6205371eef
+  internal/validators/DateValidator.go:
+    last_write_checksum: sha1:b66aabdc4675fc082ba9d917cb631b0874ff9fc1
+  internal/validators/ExactlyOneChild.go:
+    last_write_checksum: sha1:ab8e18d1763fbd5b262c3e7d917c81ac40ba839f
+  internal/validators/JSONParseValidator.go:
+    last_write_checksum: sha1:77af551821798350f868410aab90352f7ec7b370
+  internal/validators/RFC3339Validator.go:
+    last_write_checksum: sha1:8d9accfc3aa477a74b0f927652f5e2ae3d28061d
+  internal/validators/boolvalidators/not_null.go:
+    last_write_checksum: sha1:89a7362be9d519ed7c9fb7c4989d273a3aa5f279
+  internal/validators/float32validators/not_null.go:
+    last_write_checksum: sha1:4f0a859aa9d7348056c6559bad9ca336104beaef
+  internal/validators/float64validators/not_null.go:
+    last_write_checksum: sha1:f2436a4a1323d58ffcff3b153167c4e463325c12
+  internal/validators/int32validators/not_null.go:
+    last_write_checksum: sha1:d08335af46ab809d0076da8543b3455662fb66a0
+  internal/validators/int64validators/not_null.go:
+    last_write_checksum: sha1:b5bf5b539f2631813ee8771cf00d8ea9744c6dd3
+  internal/validators/listvalidators/not_null.go:
+    last_write_checksum: sha1:11f33dfa3cb1b9eadc7e4a8287518135ddae191e
+  internal/validators/mapvalidators/not_null.go:
+    last_write_checksum: sha1:64117afe6cdb1a0e1b57df970da8df0e18d10442
+  internal/validators/numbervalidators/not_null.go:
+    last_write_checksum: sha1:54d925f13a630f21e14709ce6181e5eaf96bd6e3
+  internal/validators/objectvalidators/not_null.go:
+    last_write_checksum: sha1:5f897f5dcd2686d43c9bd683900572a8d7ef6473
+  internal/validators/setvalidators/not_null.go:
+    last_write_checksum: sha1:de772bcb14615735a8ebd2a9ffaae06f464a86d5
+  internal/validators/stringvalidators/not_null.go:
+    last_write_checksum: sha1:df498b49dd87f9508f3eaec3a63ed0a08ae3c16e
+  main.go:
+    last_write_checksum: sha1:63898475143afe848f31f721964e97e09a8285a6
+  terraform-registry-manifest.json:
+    last_write_checksum: sha1:45b609f3f65164bc2f00b6e2b24faf64627e15b8
+  tools/tools.go:
+    last_write_checksum: sha1:8239addbb5e66af0488adc7dc4aba098e4634d88
+examples:
+  getMessage:
+    speakeasy-default-get-message:
+      responses:
+        "200":
+          application/json: {"text": "<value>"}
+examplesVersion: 1.0.2

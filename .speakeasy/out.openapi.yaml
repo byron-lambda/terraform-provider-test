@@ -1,0 +1,30 @@
+openapi: 3.1.0
+info:
+  title: Test API
+  version: 1.0.0
+servers:
+  - url: https://api.example.com
+paths:
+  /message:
+    get:
+      operationId: getMessage
+      summary: Get a message
+      x-speakeasy-entity-operation: Message#read
+      responses:
+        "200":
+          description: A simple message
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/Message"
+components:
+  schemas:
+    Message:
+      type: object
+      x-speakeasy-entity: Message
+      properties:
+        text:
+          type: string
+          description: The message text
+      required:
+        - text
